@@ -1,0 +1,46 @@
+<%- include('includes/head.ejs') %>
+<link rel="stylesheet" type="text/css" href="/css/home.css" />
+<link rel="stylesheet" type="text/css" href="/css/checkCovid.css" />
+
+</head>
+<body>
+  <%- include('includes/navigation.ejs') %>
+  <div class="formCovid">
+    <h2>Medical declaration covid 19</h2>
+    <form method="POST" action="">
+      <div>
+        <h3>Information Personal</h3>
+        <input type="text" placeholder="Full name" />
+        <input type="text" placeholder="Department" />
+      </div>
+      <!-- <input type="date" placeholder="Vaccined by (Name1)" /> -->
+      <div>
+        <h3>Information Temperature</h3>
+        <input type="text" placeholder="temperature" />
+        <input type="date" placeholder="Time register" />
+      </div>
+      <div>
+        <h3>Information Vaccined</h3>
+        <label for="vaccine1"> Vaccine 1</label>
+      
+        <input type="text" placeholder="Vaccined by (Name1)" id="vaccine1" />
+        <input type="date" placeholder="Vaccined by (Name1)" id="vaccine1" />
+        <label for="vaccine2">Vaccine 2</label>
+
+        <input type="text" placeholder="Vaccined by (Name2)" id="vaccine2" />
+      <input type="date" placeholder="Vaccined by (Name2)" id="vaccine2" />
+      </div>
+      <br />
+      <div>
+        <p>Have you ever had covid ?</p>
+        <input type="radio" name="option" id="yes" value="yes" />
+        <label for="yes">Yes</label>
+        <input type="radio" name="option" id="no" value="no" />
+        <label for="no">No</label>
+      </div>
+      <br />
+      <button>Send</button>
+    </form>
+  </div>
+
+<%- include('includes/end.ejs') %>

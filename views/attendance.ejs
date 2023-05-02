@@ -1,0 +1,73 @@
+<%- include("includes/head.ejs") %>
+<link rel="stylesheet" type="text/css" href="/css/home.css" />
+<link rel="stylesheet" type="text/css" href="/css/CheckIn.css" />
+
+</head>
+<body>
+<%- include("includes/navigation.ejs") %>
+<header class="header">
+    <div class="introduction">
+        <h2>Minh Dung</h2>
+        <p>Bussness</p>
+    </div>
+    <div class="exit">x</div>
+</header>
+
+<main class="timer">
+    <div class="container">
+        <div class="count-time">17:20</div>
+    </div>
+    <div class="form">
+        <form action="" method="">
+            <div class="Working-time">
+                <div>
+                    <input type="radio" name="time" id="Part-time">
+                    <label for="Part-time">Part-time</label>
+                </div>
+                <div>
+
+                    <input type="radio" name="time" id="Full-time">
+                    <label for="Full-time">Full-time</label>
+                </div>
+                <div>
+                    <input type="radio" name="time" id="Over-time">
+                    <label for="Over-time">Over-time</label>
+                </div>
+            </div>
+            <div class="Working-time">
+                <div>
+                    <input type="radio" name="place" id="Remote">
+                <label for="Remote">Remote</label>
+                </div>
+                <div>
+
+                    <input type="radio" name="place" id="Company">
+                <label for="Company">Company</label>
+                </div>
+                <div>
+                    <input type="radio" name="place" id="Customer">
+                <label for="Customer">Customer</label>
+                </div>
+            </div>
+            <div>
+                <button>check-in</button>
+                <button>check-out</button>
+            </div>
+        </form>
+    </div>
+</main>
+<div class="totalsalary">
+    <table>
+        <tr>
+            <td>STT</td>
+            <td>Fullname</td>
+            <td>List hour work</td>
+            <td>Salary</td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
+<%- include("includes/end.ejs") %>

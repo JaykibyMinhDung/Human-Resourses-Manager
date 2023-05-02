@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+.formCovid button {
+  width: 20%;
+  background-color: #6992fa;
+  color: #fff;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 20px;
+  padding: 0.4rem;
+  margin-top: 1rem;
+  margin-left: 0rem;
+}
+.formCovid button:hover {
+  transition: all 300ms linear;
+  transform: scale(1.1);
+}
+.formCovid input:focus {
+  outline: none;
+}

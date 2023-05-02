@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+
+.verticalNav {
+  background-color: #7a89d8;
+  color: #fff;
+  width: max-content;
+  padding: 1rem;
+  margin-right: 2rem;
+  /* height: 2rem; */
+  text-align: center;
+  float: left;
+}
+.verticalNav svg {
+  fill: #fff;
+  cursor: pointer;
+  width: 70%;
+}
+.verticalNav svg:hover {
+  transform: scale(1.2);
+  transition: all 300ms ease-in;
+}
+
+/* Header home */
+
+.headerHome {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.headerHome form {
+  width: 65%;
+  float: left;
+}
+.headerHome div {
+  width: 23%;
+  text-align: center;
+  font-size: 130%;
+  float: left;
+  clear: right;
+}
+.headerHome input {
+  width: 40%;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+.headerHome input:focus {
+  outline: none;
+}
+
+.headerHome button {
+  background-color: #6992fa;
+  cursor: pointer;
+  width: 10%;
+  border: 0px;
+  border-radius: 20px;
+  padding: 0.4rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.headerHome button:hover {
+  transition: all 300ms linear;
+  transform: scale(1.2);
+}
+.headerHome button svg {
+  text-align: center;
+  fill: #fff;
+}
+
+table {
+  width: 85%;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 1rem;
+}
+
+/* Footer */
+
+.footerHome {
+  margin-top: 2rem;
+}
+.footerHome div {
+  text-align: center;
+  float: left;
+  cursor: pointer;
+}
+.footerHome svg {
+  width: 60%;
+}
+
+.pageNumber input {
+  width: 1rem;
+  font-size: 100%;
+  border: 0px;
+}
+
+.pageNumber input:focus {
+  outline: none;
+}

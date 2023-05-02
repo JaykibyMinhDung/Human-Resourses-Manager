@@ -1,0 +1,80 @@
+body {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding-top: 2rem;
+  font-size: 200%;
+}
+
+a {
+  float: right;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+input {
+  font-size: 120%;
+  margin: 1rem;
+  padding: 1.8rem;
+  border-radius: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  width: 90%;
+  height: 0rem;
+}
+input:focus {
+  outline: none;
+}
+
+.relativeBlock {
+  position: relative;
+}
+
+.shape {
+  background-color: #ffaaaa;
+  margin-right: 2%;
+  width: 47vw;
+  height: 46vw;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  float: left;
+}
+
+.formClass {
+  margin: 0;
+  width: 40vw;
+  float: left;
+  clear: right;
+  position: absolute;
+  top: 10rem;
+  left: 35%;
+}
+
+button {
+  width: 50%;
+  height: 2.5rem;
+  border-radius: 20px;
+  background-color: rgb(106, 255, 126);
+  color: white;
+  font-size: 120%;
+  box-shadow: 3px 1px 10px rgb(0, 0, 0);
+  border: 0px solid white;
+  margin-left: 8.5rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.1);
+  transition: all 200ms ease-in;
+  box-shadow: 8px 8px 15px rgb(0, 0, 0);
+  border: 0px solid white;
+}
